@@ -37,7 +37,7 @@ mono proxy-parser/proxy-parser/bin/Debug/proxy-parser.exe
 # Solutions for errors
 xbuild errors:
 
--        /usr/lib/mono/xbuild/14.0/bin/Microsoft.Common.targets:  warning : TargetFrameworkVersion 'v4.7.2' not supported by this toolset (ToolsVersion: 14.0).   
+/usr/lib/mono/xbuild/14.0/bin/Microsoft.Common.targets:  warning : TargetFrameworkVersion 'v4.7.2' not supported by this toolset (ToolsVersion: 14.0).   
 
 edit **proxy-parser.csproj** and change
 ```
