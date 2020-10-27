@@ -1,10 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Data;
 using System.IO;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace proxy_parser
 {
@@ -57,8 +52,10 @@ namespace proxy_parser
             }
 
             Console.WriteLine();
-            File.AppendAllText($"{type}-proxyparsed.txt", all);
-            Console.WriteLine($"Done! Saved to \'{type}-proxyparsed.txt\'");
+            Random rnd = new Random();
+            int r = rnd.Next(1111, 9999);
+            File.AppendAllText($"{type}-{r}-proxyparsed.txt", all);
+            Console.WriteLine($"Done! Saved to \'{type}-{r}-proxyparsed.txt\'");
             Console.ReadKey();
         }
     }
