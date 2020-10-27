@@ -27,6 +27,12 @@ xbuild proxy-parser.csproj
 ```
 Compiled program will be show in **bin** subfolder
 
+Copy & paste install
+```
+git clone https://github.com/suchy2020/proxy-parser 
+xbuild proxy-parser/proxy-parser/proxy-parser.csproj 
+mono proxy-parser/proxy-parser/bin/Debug/proxy-parser.exe 
+```
 ------------
 # Solutions for errors
 xbuild errors:
