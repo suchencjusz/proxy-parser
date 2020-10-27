@@ -1,5 +1,5 @@
 # proxychains parser
-[![Build Status](https://travis-ci.org/suchy2020/proxy-parser.svg?branch=main)](https://travis-ci.org/suchy2020/proxy-parser)[![CodeFactor](https://www.codefactor.io/repository/github/suchy2020/proxy-parser/badge)](https://www.codefactor.io/repository/github/suchy2020/proxy-parser)
+[![Build Status](https://travis-ci.org/suchy2020/proxy-parser.svg?branch=main)](https://travis-ci.org/suchy2020/proxy-parser) [![CodeFactor](https://www.codefactor.io/repository/github/suchy2020/proxy-parser/badge)](https://www.codefactor.io/repository/github/suchy2020/proxy-parser)
 
 Need parse proxies from that:
 ```
